@@ -54,7 +54,18 @@ h1 {
 /* Picture on main page */
 
 #main-picture {
-    height: 1300px;
+    height: 675px;
     width: 100%;
-    background: url('../pictures/walking-man.jpg') no-repeat center center;
+    overflow: hidden;
+    /*background: url('../pictures/walking man.jpg') no-repeat center center;*/
+}
+
+#about-us {
+    height: 600px;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 50%;
+    background-color: black;
 }
