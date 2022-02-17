@@ -9,6 +9,7 @@ body {
     font-family: Oswald, sans-serif;
     font-size:120%;
     font-weight: 300;
+    background-color: antiquewhite;
 }
 
 /* headings and navigation menu */
@@ -16,7 +17,6 @@ body {
 h1 {
     font-family: 'Ubuntu Mono', sans-serif;
     text-transform: uppercase;
-    color: gray;
     letter-spacing: 3px;
     color: #2b2727;
     }
@@ -49,4 +49,12 @@ h1 {
 #menu a:hover {
     color: blue;
     
+}
+
+/* Picture on main page */
+
+#main-picture {
+    height: 1300px;
+    width: 100%;
+    background: url('../pictures/walking-man.jpg') no-repeat center center;
 }
