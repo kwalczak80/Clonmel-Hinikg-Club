@@ -10,6 +10,8 @@ body {
     font-size:120%;
     font-weight: 300;
     background-color: antiquewhite;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 /* headings and navigation menu */
@@ -92,4 +94,9 @@ div {
 
 #about-us {
     margin-top: 20px;
+}
+
+#images {
+    height: 600px;
+    width: 100%;
 }
