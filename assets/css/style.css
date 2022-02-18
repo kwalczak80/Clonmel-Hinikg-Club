@@ -54,7 +54,7 @@ h1 {
 /* Picture on main page */
 
 #main-picture {
-    height: 900px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
     background: url('../images/walking man.jpg');
@@ -83,5 +83,14 @@ h1 {
     padding-top: 30px;
     width: 50%;
     background-color: black;
-    
+   
+}
+
+/* positioning items in the center of screen*/
+
+.center-position h2  {
+      text-align: center;
+}
+.center-position p {
+    text-align: center;
 }
