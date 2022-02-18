@@ -17,14 +17,28 @@ body {
 h1 {
     font-family: 'Ubuntu Mono', sans-serif;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 3px;
     color: #2b2727;
     }
 h2 {
     text-align: center;
+    text-decoration: underline;
 }
 p{
     text-align: center;
+    text-align: justify;
+}
+
+div {
+    vertical-align: top;
+    margin-top: 15px;
+    display: inline-block;
+    height: 200px;
+    width: 30%;    
+    padding-right: 10px;
+    border: 2px #2b2727 solid;
+    border-radius: 10px;
 }
 
 #club-logo {
@@ -65,61 +79,17 @@ p{
     width: 100%;
     overflow: hidden;
     background: url('../images/logo1.jpg') center center/cover no-repeat;
-    /*background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;*/
 }
 
-#left-about {
-    padding: 30px;
-    width: 33%;
-    float:left;
-    background-color: darkcyan;
+.display-center {
     text-align: center;
-    
+    margin-top: 20px;
 }
 
-#right-about {
-    padding: 30px;
-    width: 33%;
-    float:right;
-    background-color: aqua;
-    text-align: center;  
-}
-
-#center-about {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
-    background-color: rgb(169, 236, 210);
+.display-center p {
     text-align: center;
- 
 }
 
-.left-about-heading {
-    
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+#about-us {
+    margin-top: 20px;
 }
-
-.right-about-heading {
-    width: 60%;
-    
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.center-about-heading {
-    width: 60%;
-    
-    /*float: right;*/
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
