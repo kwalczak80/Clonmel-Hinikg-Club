@@ -32,17 +32,6 @@ p{
     text-align: justify;
 }
 
-div {
-    vertical-align: top;
-    margin-top: 15px;
-    display: inline-block;
-    height: 200px;
-    width: 30%;    
-    padding-right: 10px;
-    border: 2px #2b2727 solid;
-    border-radius: 10px;
-}
-
 #club-logo {
     float: left;
     font-size: 280%;
@@ -81,6 +70,10 @@ div {
     width: 100%;
     overflow: hidden;
     background: url('../images/logo1.jpg') center center/cover no-repeat;
+    border: 2px transparent solid;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .display-center {
@@ -96,7 +89,66 @@ div {
     margin-top: 20px;
 }
 
-#images {
-    height: 600px;
+#gallery {
+    margin-top: 20px;
+}
+
+
+#about-us div {
+    
+        vertical-align: top;
+        margin-top: 15px;
+        display: inline-block;
+        height: 190px;
+        width: 30%;    
+        padding-right: 10px;
+        border: 2px #2b2727 solid;
+        border-radius: 10px;
+    
+}
+
+
+
+/* Gallery */
+.horizontal_slider {
+    display: block;
     width: 100%;
+    overflow-x: scroll;
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+/*.horizontal_slider::-webkit-scrollbar {
+    display: none;
+}*/
+.slider_container {
+    display: block;
+    white-space: nowrap;
+}
+.item {
+    display: inline-block;
+    margin: 10px;
+}
+.item img {
+    border-radius: 10px;
+    width: auto;
+    height: 600px;
+    object-fit: cover;
+}
+
+#events {
+    padding-top: 20px;
+}
+
+#form-submisson {
+    height: 300px;
+    width: 150px;
+    background-color: darkgray;
+
+}
+
+#contact-us {
+    padding-top: 20px;
 }
